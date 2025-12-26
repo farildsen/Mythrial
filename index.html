@@ -5,6 +5,20 @@
   <title>Mythrial</title>
   <link rel="stylesheet" href="css/main.css">
   <script src="https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.7.1/dist/svg-pan-zoom.min.js"></script>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden; /* prevent scrollbars while panning */
+    }
+    svg {
+      width: 100%;
+      height: 100vh;
+      display: block;
+      touch-action: none; /* improves touch panning on mobile */
+    }
+  </style>
 </head>
 <body>
 
@@ -13,12 +27,19 @@
 </svg>
 
 <script>
-svgPanZoom('#map', {
+const map = svgPanZoom('#map', {
   zoomEnabled: true,
-  controlIconsEnabled: true,
+  controlIconsEnabled: true, // optional zoom buttons
   fit: true,
-  center: true
+  center: true,
+  minZoom: 0.5,
+  maxZoom: 10,
+  zoomScaleSensitivity: 0.2, // smaller = slower zoom
+  panEnabled: true,
+  preventMouseEventsDefault: true
 });
+
+map.enableControlIcons(true);
 </script>
 
 </body>
