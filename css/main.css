@@ -5,25 +5,3 @@ svg {
     width: 100%;
     height: auto;
 }
-
-  /* .city {
-    fill: gold;
-    stroke: black;
-    stroke-width: 1;
-    cursor: pointer;
-  }
-
-  .city:hover {
-    fill: red;
-  }
-
-  .region {
-    fill: transparent;
-    stroke: gold;
-    stroke-width: 2;
-    cursor: pointer;
-  }
-
-  .region:hover {
-    fill: rgba(255, 215, 0, 0.3);
-  } */
