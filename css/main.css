@@ -1,12 +1,13 @@
-  html, body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
-      overflow: hidden; /* prevent scrollbars while panning */
-    }
-    svg {
-      width: 100%;
-      height: 100vh;
-      display: block;
-      touch-action: none; /* improves touch panning on mobile */
-    }
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+svg {
+  width: 100%;
+  height: 100vh;
+  display: block;
+  touch-action: none;
+  transform-origin: 0 0;
+}
