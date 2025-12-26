@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  svg {
+    width: 100%;
+    height: auto;
+  }
+
+  .city {
+    fill: gold;
+    stroke: black;
+    stroke-width: 1;
+    cursor: pointer;
+  }
+
+  .city:hover {
+    fill: red;
+  }
+
+  .region {
+    fill: transparent;
+    stroke: gold;
+    stroke-width: 2;
+    cursor: pointer;
+  }
+
+  .region:hover {
+    fill: rgba(255, 215, 0, 0.3);
+  }
+</style>
+</head>
+<body>
+
+<svg viewBox="0 0 2000 1000">
+  <image href="mythrial.png" width="4096" height="3072"/>
+
+  <!-- Cities -->
+  <a href="cities/eldoria.html">
+    <circle cx="820" cy="410" r="8" class="city"/>
+  </a>
+
+  <a href="cities/ironhold.html">
+    <circle cx="910" cy="470" r="8" class="city"/>
+  </a>
+
+  <!-- Regions -->
+  <a href="regions/northrealm.html">
+    <polygon
+      points="500,200 900,220 880,480 520,460"
+      class="region"
+    />
+  </a>
+</svg>
+
+</body>
+</html>

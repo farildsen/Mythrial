@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Dungeon Emporium</title>
+  <style>
+    body { font-family: serif; background: #1e1b16; color: #eee; }
+    .item { border-bottom: 1px solid #444; padding: 10px; }
+  </style>
+</head>
+<body>
+
+<h1>The Dungeon Emporium</h1>
+<div id="shop"></div>
+
+<script>
+fetch('items.json')
+  .then(r => r.json())
+  .then(items => {
+    const shop = document.getElementById('shop');
+    items.forEach(i => {
+      shop.innerHTML += `
+        <div class="item">
+          <h3>${i.name} (${i.price_gp} gp)</h3>
+          <em>${i.rarity}</em>
+          <p>${i.description}</p>
+        </div>
+      `;
+    });
+  });
+</script>
+
+</body>
+</html>
