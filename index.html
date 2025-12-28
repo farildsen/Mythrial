@@ -7,17 +7,27 @@
 </head>
 <body>
 
-<svg id="map" viewBox="0 0 4096 3072">
-  <image href="maps/mythrial.png" width="4096" height="3072"/>
+<svg class="pan-zoom-svg"
+     viewBox="0 0 4096 3072"
+     width="100%"
+     height="100%"
+     preserveAspectRatio="xMidYMid meet">
 
-  <a href="cities/ironhold.html">
+  <image
+    href="maps/mythrial.png"
+    x="0"
+    y="0"
+    width="4096"
+    height="3072"
+    draggable="false"
+    />
+
+  <a href="destinations/silverhold.html">
     <circle cx="2485" cy="1475" r="20" class="city"/>
   </a>
 
-  <a href="cities/silverkeep.html">
-    <circle cx="1200" cy="600" r="20" class="city"/>
-  </a>
 </svg>
+
 
 <script src="js/map.js"></script>
 </body>
