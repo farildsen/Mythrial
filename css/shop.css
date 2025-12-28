@@ -16,7 +16,12 @@ html, body {
     width: 80%;
     max-width: 1200px;
     padding: 20px 0;
-    flex: 1;         
+    flex: 1;
+    color: white;        
+}
+
+h1 {
+    margin-bottom: 40px;
 }
 
 .item-box {
