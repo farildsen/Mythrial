@@ -1,0 +1,112 @@
+[
+    {
+        "category": "Wondrous Item",
+        "description": "A beautifully crafted amulet with a polished gemstone from the Silverhold mine in the center, surrounded by protective runes.",
+        "effect": "Grants the wearer a +1 bonus to Constitution saving throws. In addition, once per day, the wearer can use the amulet to dispel magical darkness within 30 feet as a reaction",
+        "id": 1,
+        "image": "Amulet_of_Silverholds_Ward.jpeg",
+        "lore": "Blessed by the village clerics after the shadows were defeated, this amulet now serves as a symbol of protection and resilience.",
+        "name": "Amulet of Silverhold's Ward",
+        "price_gp": 215,
+        "rarity": "Rare"
+    },
+    {
+        "category": "Wondrous Item",
+        "description": "This finely crafted silver bracelet moves like liquid metal, its surface constantly shifting in gentle waves. Cool to the touch and perfectly fitted to the wearer, it bears faint runes that shimmer and fade like reflections on water, symbolizing grace, balance, and control",
+        "effect": "Once per long rest, when you use Flurry of Blows, you can push a target an extra 10 feet or gain +2 AC until the start of your next turn.",
+        "id": 2,
+        "image": "bracelet_of_flowing_silver.jpeg",
+        "lore": null,
+        "name": "Bracelet of Flowing Silver",
+        "price_gp": 190,
+        "rarity": "Uncommon"
+    },
+    {
+        "category": "Consumable",
+        "description": "A red vial that restores 2d4 + 2 hit points.",
+        "effect": "A red vial that restores 2d4 + 2 hit points.",
+        "id": 3,
+        "image": null,
+        "lore": null,
+        "name": "Potion of Healing",
+        "price_gp": 50,
+        "rarity": "Common"
+    },
+    {
+        "category": "Wondrous Item",
+        "description": "Grants advantage on Stealth checks.",
+        "effect": "Grants advantage on Stealth checks.",
+        "id": 4,
+        "image": null,
+        "lore": null,
+        "name": "Cloak of Elvenkind",
+        "price_gp": 2500,
+        "rarity": "Uncommon"
+    },
+    {
+        "category": "Ring",
+        "description": "Grants a +1 bonus to AC and saving throws.",
+        "effect": "Grants a +1 bonus to AC and saving throws.",
+        "id": 5,
+        "image": null,
+        "lore": null,
+        "name": "Ring of Protection",
+        "price_gp": 3500,
+        "rarity": "Rare"
+    },
+    {
+        "category": "Weapon",
+        "description": "A sturdy blade forged by a local blacksmith.",
+        "effect": "n/a",
+        "id": 6,
+        "image": null,
+        "lore": null,
+        "name": "Iron Longsword",
+        "price_gp": 15,
+        "rarity": "Common"
+    },
+    {
+        "category": "Armor",
+        "description": "A round shield reinforced with iron bands.",
+        "effect": "n/a",
+        "id": 7,
+        "image": null,
+        "lore": null,
+        "name": "Oak Shield",
+        "price_gp": 10,
+        "rarity": "Common"
+    },
+    {
+        "category": "Consumable",
+        "description": "A red vial that restores 2d4 + 2 hit points.",
+        "effect": "A red vial that restores 2d4 + 2 hit points.",
+        "id": 8,
+        "image": null,
+        "lore": null,
+        "name": "Potion of Healing",
+        "price_gp": 50,
+        "rarity": "Common"
+    },
+    {
+        "category": "Wondrous Item",
+        "description": "Grants advantage on Stealth checks.",
+        "effect": "Grants advantage on Stealth checks.",
+        "id": 9,
+        "image": null,
+        "lore": null,
+        "name": "Cloak of Elvenkind",
+        "price_gp": 2500,
+        "rarity": "Uncommon"
+    },
+    {
+        "category": "Ring",
+        "description": "Grants a +1 bonus to AC and saving throws.",
+        "effect": "Grants a +1 bonus to AC and saving throws.",
+        "id": 10,
+        "image": null,
+        "lore": null,
+        "name": "Ring of Protection",
+        "price_gp": 3500,
+        "rarity": "Rare"
+    }
+]

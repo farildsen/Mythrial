@@ -1,0 +1,96 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  background-color: #111;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    padding: 20px 0;
+    flex: 1;         
+}
+
+.item-box {
+    display: grid;
+    grid-template-columns: 600px 1fr;
+    grid-template-rows: 600px 1fr;
+    background-color: white;
+    margin-bottom: 50px;
+    color: #333;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.image {
+    grid-column: 1;
+    grid-row: 1 / -1;       /* span all rows */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item {
+    grid-column: 2;
+    display: grid;
+    grid-template-rows: 65px repeat(6, auto)  1fr;
+    padding: 30px 40px;  
+}
+
+.item-line {
+    display: flex;
+    font-size: 1.2rem;
+    margin: 5px 0;
+    padding-bottom: 20px;
+}
+
+.name-box {
+    display: grid;
+    grid-template-columns: auto 150px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.name {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.price {
+    font-weight: 600;
+    font-size: 1.3rem;
+    justify-content: end;
+    align-items:end;
+    margin-bottom: 40px;
+}
+
+.rarity {
+    justify-content: end;
+}
+
+.header {
+    font-size: 1.2rem;
+    font-weight: 600;
+    /* border: 1px solid blue; */
+}
+/* .description {
+
+    border: 1px solid blue;
+    
+}
+
+.lore {
+    border: 1px solid blue;
+}
+
+.effect {
+    border: 1px solid blue;
+} */
