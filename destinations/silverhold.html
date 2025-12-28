@@ -7,15 +7,6 @@
 </head>
 <body>
 
-<!-- <svg class="map" viewBox="0 0 3600 3760">
-  <image href="../maps/silverhold.jpg" width="3600" height="3760"/>
-
-  <!-- <a href="destinations/silverhold_jewelry.html">
-    <circle cx="2485" cy="1475" r="20" class="city"/>
-  </a> -->
-
-</svg> -->
-
 <svg class="pan-zoom-svg"
      viewBox="0 0 3600 3760"
      width="100%"
@@ -32,9 +23,24 @@
     />
 
   <a href="destinations/silverhold.html">
-    <circle cx="2485" cy="1475" r="20" class="city"/>
-  </a>
+    <g class="city-group">
+        <text
+        x="3375"
+        y="1120"
+        class="city-label"
+        text-anchor="middle"
+        >
+        Jewelry store
+        </text>
 
+        <circle
+        cx="3375"
+        cy="1120"
+        r="20"
+        class="city"
+        />
+    </g>
+  </a>
 </svg>
 
 <script src="../js/map.js"></script>

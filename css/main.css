@@ -12,12 +12,38 @@ html, body {
   cursor: grab;
 }
 
+.city-label {
+  fill: white;
+  font-size: 2rem;
+  font-family: sans-serif;
+  pointer-events: none;
+  transform: translateY(-30px);
+  transition: transform 0.2s ease;
+}
+
 .city {
   fill: red;
   stroke: white;
   stroke-width: 3;
-  cursor: pointer;
+  transform-box: fill-box;
+  transform-origin: center;
+  transition: transform 0.2s ease;
 }
-.city:hover {
-  r: 30;
+
+/* .city-group path {
+  transition: stroke-width 0.3s;
+}
+
+.city-group:hover path {
+  stroke-width: 5;
+} */
+
+.city-group path {
+  transition: filter 1s;
+  transition: stroke-width 1s;
+}
+
+.city-group:hover path {
+  filter: drop-shadow(0 0 35px yellow);
+  stroke-width: 10;
 }
