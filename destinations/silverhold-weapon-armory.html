@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Silverhold</title>
+  <link rel="stylesheet" href="../css/shop.css">
+</head>
+<body class="center">
+<div class="container">
+    <h1>Silverhold Weapon & Armory</h1>
+    <div id="shop"></div>
+</div>
+    <script>
+    fetch('../db/weapon_items.json')
+    .then(r => r.json())
+    .then(items => {
+        const shop = document.getElementById('shop');
+        items.forEach(i => {
+        shop.innerHTML += `
+            <div class="item-box">
+                <div class="image" style="background-image: url('../images/${i.image}')"></div>
+                <div class="item">
+                    <div class="name-box">
+                        <div class="name item-line">${i.name}</div>
+                        <div class="rarity item-line">(${i.rarity})</div>
+                    </div>
+                    <div class="header">Description:</div>
+                    <div class="description item-line">${i.description}</div>
+                    <div class="header">Lore:</div>
+                    <div class="lore item-line">${i.lore}</div>
+                    <div class="header">Effect:</div>
+                    <div class="effect item-line">${i.effect}</div>
+                    <div class="price item-line">${i.price_gp} G</div>
+                </div>
+            </div>
+        `;
+        });
+    });
+    </script>
+
+</body>
+</html>
