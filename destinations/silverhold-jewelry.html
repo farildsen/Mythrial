@@ -6,11 +6,11 @@
 </head>
 <body class="center">
 <div class="container">
-    <h1>Silverhold Jewelry shop</h1>
+    <h1>Silverhold Jewelry & Magic shop</h1>
     <div id="shop"></div>
 </div>
     <script>
-    fetch('../db/items.json')
+    fetch('../db/magic_items.json')
     .then(r => r.json())
     .then(items => {
         const shop = document.getElementById('shop');

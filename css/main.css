@@ -50,9 +50,17 @@ html, body {
 }
 
 .roof-text {
-  font-size: 0.7rem;
+  display: flex;
+  margin-top:15px;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.5rem;
   letter-spacing: 1px;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  fill: yellow;
-  fill-opacity: 0.5;
+  color: rgb(255, 255, 0, 0.51);
+  text-align: center;
+  word-break: break-word;
+  white-space: normal;
+  max-width: 50px;
+  font-weight:400;
 }
