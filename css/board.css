@@ -22,12 +22,12 @@ html, body {
   word-break: break-word;
   white-space: normal;
   max-width: 150px;
-  font-weight:400;
+
   height: 100%;
 }
 
 .medievalsharp-regular {
   font-family: "MedievalSharp", cursive;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
 }
