@@ -26,19 +26,18 @@
   <a href="silverhold-jewelry.html">
     <g class="silverhold-house" transform="translate(0 0) scale(1)">
       <path
-        d="m 3195.871,1186.8387 52.8387,25.5484 277.5484,-1.1613 -0.5807,-179.4193 h -242.129 l -9.871,-6.9678 z"
+        d="m 3269.3062,968.36593 h 258.1595 V 473.47095 h -178.8906 v 77.12649 h -78.1977 z"
         fill-opacity="0"
         stroke="yellow"
         stroke-width="0"
       />
-      <foreignObject x="3313" y="1040" width="140" height="200">
+      <foreignObject x="3330" y="680" width="140" height="200">
         <div class="roof-text">
           JEWELRY & MAGIC
         </div>
       </foreignObject>
     </g>
   </a>
-
 
   <a href="silverhold-weapon-armory.html">
     <g class="silverhold-house" transform="translate(0 0) scale(1)">
@@ -56,21 +55,43 @@
     </g>
   </a>
 
-  <a href="silverhold-board.html">
-    <g class="silverhold-house" transform="translate(0 0) scale(1)">
+<a href="silverhold-board.html">
+  <svg overflow="visible">
+
+    <defs>
+      <pattern
+        id="boardTexture"
+        patternUnits="userSpaceOnUse"
+        x="0"
+        y="0"
+        width="2000"
+        height="2000">
+        <image
+          href="../images/board/board_icon.png"
+          width="2000"
+          height="2000"
+          preserveAspectRatio="xMidYMid slice"
+        />
+      </pattern>
+    </defs>
+
+    <g class="silverhold-board" transform="translate(1560 1250) scale(0.05)">
       <path
-        d="M 471.34369,2630.9847 H 720.9752 l 167.51588,163.4101 v 166.6947 l -3.28463,6.5692 -411.39929,5.7481 v -180.6544 l 4.92694,-1.6423 0.82116,-62.4078 h -10.67503 z"
-        fill-opacity="0"
+        d="m 119.25866,1980.6608 h 178.888 V 1726.0274 H 1713.1346 v 253.0218 h 183.7228 v -644.6415 h 101.531 V 3.2232071 H 1.6116035 V 1334.4077 H 116.03546 Z
+           m 182.1112,-646.2531 H 1711.523 v 246.5754 H 298.14666 Z"
+        fill="url(#boardTexture)"
         stroke="yellow"
         stroke-width="0"
       />
-      <foreignObject x="530" y="2700" width="200" height="200">
-        <div class="roof-text">
-          WEAPON & ARMORY
-        </div>
+
+      <foreignObject x="-3000" y="-900" width="8000" height="800">
+        <div class="roof-text" style="font-size:40rem;">TOWN'S BOARD</div>
       </foreignObject>
     </g>
-  </a>
+
+  </svg>
+</a>
+
 </svg>
 
 <script src="../js/map.js"></script>

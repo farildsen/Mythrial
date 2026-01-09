@@ -49,6 +49,16 @@ html, body {
   stroke-width: 5;
 }
 
+.silverhold-board path {
+  transition: filter 0.75s;
+  transition: stroke-width 0.75s;
+}
+
+.silverhold-board:hover path {
+  filter: drop-shadow(0 0 25px yellow);
+  stroke-width: 100;
+}
+
 .roof-text {
   display: flex;
   margin-top:15px;
@@ -61,6 +71,6 @@ html, body {
   text-align: center;
   word-break: break-word;
   white-space: normal;
-  max-width: 150px;
+  width: 100%;
   font-weight:400;
 }

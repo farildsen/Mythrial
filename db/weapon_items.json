@@ -1,13 +1,24 @@
 [
     {
-        "category": "Wondrous Item",
-        "description": "A beautifully crafted amulet with a polished gemstone from the Silverhold mine in the center, surrounded by protective runes.",
-        "effect": "Grants the wearer a +1 bonus to Constitution saving throws. In addition, once per day, the wearer can use the amulet to dispel magical darkness within 30 feet as a reaction",
+        "category": "Light Armor",
+        "description": "This supple studded leather armor is reinforced with thin, leaf-shaped rivets of green-bronze alloy. When worn, the jerkin shifts softly with the wearer’s movements, producing little more than a whisper — like wind passing through branches",
+        "effect": "Light Armor. Permanent +1 AC (12 + Dex modifier +1)",
         "id": 1,
-        "image": "Amulet_of_Silverholds_Ward.jpeg",
-        "lore": "Blessed by the village clerics after the shadows were defeated, this amulet now serves as a symbol of protection and resilience.",
-        "name": "Amulet of Silverhold's Ward",
-        "price_gp": 215,
-        "rarity": "Rare"
+        "image": "studded_leather.jpg",
+        "lore": "The Whisperleaf was first crafted by Elven wardens who guarded the old forest roads, where silence meant survival. Each suit was treated with druidic oils and riveted by hand under a new moon.",
+        "name": "Whisperleaf Ward",
+        "price_gp": 900,
+        "rarity": "Rare Magic Item"
+    },
+     {
+        "category": "Small Shield",
+        "description": "A simple, sturdy round shield. Its wooden face is reinforced with an iron rim, showing minor dents and scratches from years of service. Though plain, it is reliable and easy to maneuver, perfect for foot soldiers, adventurers, or guards.",
+        "effect": "+1 to AC when wielded",
+        "id": 1,
+        "image": "small_shield1.png",
+        "lore": "n/a",
+        "name": "Hearthshield",
+        "price_gp": 25,
+        "rarity": "Common Item"
     }
 ]
