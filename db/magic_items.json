@@ -1,112 +1,112 @@
 [
-    {
-        "category": "Wondrous Item",
-        "description": "A beautifully crafted amulet with a polished gemstone from the Silverhold mine in the center, surrounded by protective runes.",
-        "effect": "Grants the wearer a +1 bonus to Constitution saving throws. In addition, once per day, the wearer can use the amulet to dispel magical darkness within 30 feet as a reaction",
-        "id": 1,
-        "image": "Amulet_of_Silverholds_Ward.jpeg",
-        "lore": "Blessed by the village clerics after the shadows were defeated, this amulet now serves as a symbol of protection and resilience.",
-        "name": "Amulet of Silverhold's Ward",
-        "price_gp": 225,
-        "rarity": "Rare"
-    },
-    {
-        "category": "Wondrous Item",
-        "description": "This finely crafted silver bracelet moves like liquid metal, its surface constantly shifting in gentle waves. Cool to the touch and perfectly fitted to the wearer, it bears faint runes that shimmer and fade like reflections on water, symbolizing grace, balance, and control",
-        "effect": "Once per long rest, when you use Flurry of Blows, you can push a target an extra 10 feet or gain +2 AC until the start of your next turn.",
-        "id": 2,
-        "image": "bracelet_of_flowing_silver.jpeg",
-        "lore": "n/a",
-        "name": "Bracelet of Flowing Silver",
-        "price_gp": 180,
-        "rarity": "Uncommon"
-    },
-    {
-        "category": "Wondrous Item",
-        "description": "A pair of black gloves that seem to absorb light. They are slightly cool to the touch and fit the wearer perfectly.",
-        "effect": "While wearing these gloves, the user gains a +1 to Stealth checks and can pass through any shadow as if it were difficult terrain, allowing them to move more subtly in dim light or darkness. Once per day, they can also blend into shadows, gaining advantage on one Dexterity (Stealth) check.",
-        "id": 3,
-        "image": "gloves_of_the_shadow_walker.png",
-        "lore": "These gloves were crafted by cultists, giving the wearer a bit of the shadows’ power as a remnant of their dark magic.",
-        "name": "Gloves of the Shadow Walker",
-        "price_gp": 260,
-        "rarity": "Rare"
-    },
-    {
-        "category": "Weapon",
-        "description": "A sleek, silver-black dagger with a strange weightlessness to it. When held, the blade absorbs nearby light, seeming to drink in shadows.",
-        "effect": "This +1 dagger deals an additional 1d6 necrotic damage to creatures vulnerable to radiant or shadow-based damage. Once per day, the wielder can also use the dagger to cast Shadow Blade for 1 minute",
-        "id": 4,
-        "image": "shadowforged_dagger.jpeg",
-        "lore": "Crafted from metals taken from the Silverhold Mine itself, this dagger was forged to banish the shadows and has been imbued with the energy of the demon’s defeat.",
-        "name": "Shadowforged Dagger",
-        "price_gp": 210,
-        "rarity": "Uncommon"
-    },
-    {
-        "category": "Ring",
-        "description": "Stamped with the crest of Silverhold.",
-        "effect": "+1 AC while not using a shield",
-        "id": 5,
-        "image": "silverhold_signet_ring.jpeg",
-        "lore": "n/a",
-        "name": "Silverhold Signet Ring",
-        "price_gp": 275,
-        "rarity": "Rare"
-    },
-    {
-        "category": "Ring",
-        "description": "A thin silver band inlaid with tiny crimson dragon scales.",
-        "effect": "Gain resistance to fire damage for 1 minute, usable once per long rest. Glows faintly when casting fire spells",
-        "id": 6,
-        "image": "ring_of_ember_scales.png",
-        "lore": "n/a",
-        "name": "Ring of Ember Scales",
-        "price_gp": 200,
-        "rarity": "Uncommon"
-    },
-    {
-        "category": "Wondrous Item",
-        "description": "Twisted silver inlaid with moonstones, hums faintly under moonlight.",
-        "effect": "Once per long rest, you can regain one expended 1st-level spell slot.",
-        "id": 7,
-        "image": "moonstone_armband.png",
-        "lore": "n/a",
-        "name": "Moonstone Armband",
-        "price_gp": 250,
-        "rarity": "Uncommon"
-    },
-    {
-        "category": "Necklace",
-        "description": "Polished silver skull on a silver chain. Whispers faintly near corpses, when the wearer is near dead bodies or spirits, they might hear soft, ghostly murmurs.",
-        "effect": "Once per long rest, when you deal Sneak Attack damage, deal an additional 1d6 necrotic damage.",
-        "id": 8,
-        "image": "silverhold_skull_pendant.jpeg",
-        "lore": "n/a",
-        "name": "Silverhold skull pendant",
-        "price_gp": 95,
-        "rarity": "Common"
-    },
-    {
-        "category": "Wondrous Item",
-        "description": "A fang from a great wolf, etched with runes. The wearer bonds with the spirit of the hunt.",
-        "effect": "Once per long rest, when you hit with a weapon attack, roll the damage dice an additional time and add it to the total",
-        "id": 9,
-        "image": "wolffang_necklace.jpeg",
-        "lore": "n/a",
-        "name": "Wolffang Necklace",
-        "price_gp": 230,
-        "rarity": "Uncommon"
-    },
-    {
-        "category": "Necklace",
-        "description": "This pendant has a small silver mirror, polished to a high sheen. The mirror has faint, dark streaks within, reminiscent of shadows moving.",
-        "effect": "Once per day, the wearer can gain added blindsight for a period of 10 minutes. However, while having added blindsight, the wearer occasionally sees shadowy figures out of the corner of their eye—harmless but eerie remnants of the shadowy presence they banished.",
-        "id": 10,
-        "image": "the_silvered_mirror_pendant.png",
-        "lore": "The pendant is enchanted with residual energy from the Shadow Demon, making it a rare and hauntingly beautiful piece.",
-        "name": "The Silvered Mirror Pendant",
-        "price_gp": 245,
-        "rarity": "Rare"
-    }
+  {
+    "category": "Wondrous Item",
+    "description": "A beautifully crafted amulet with a polished gemstone from the Silverhold mine, surrounded by protective runes.",
+    "effect": "Grants the wearer a +1 bonus to Constitution saving throws. Once per short rest, the wearer can dispel magical darkness within 30 feet as a reaction (Dormant).",
+    "id": 1,
+    "image": "Amulet_of_Silverholds_Ward.jpeg",
+    "lore": "Blessed by the village clerics after the shadows were defeated, this amulet serves as a symbol of protection and resilience.",
+    "name": "Amulet of Silverhold's Ward",
+    "price_gp": 275,
+    "rarity": "Rare (Dormant)"
+  },
+  {
+    "category": "Wondrous Item",
+    "description": "A finely crafted silver bracelet that moves like liquid metal, its surface constantly shifting in gentle waves.",
+    "effect": "Once per long rest, when using Flurry of Blows, push a target 10 feet or gain +2 AC until the start of your next turn.",
+    "id": 2,
+    "image": "bracelet_of_flowing_silver.jpeg",
+    "lore": "n/a",
+    "name": "Bracelet of Flowing Silver",
+    "price_gp": 180,
+    "rarity": "Uncommon"
+  },
+  {
+    "category": "Wondrous Item",
+    "description": "A pair of black gloves that seem to absorb light.",
+    "effect": "+1 to Stealth checks. Once per long rest, gain advantage on one Dexterity (Stealth) check (Dormant).",
+    "id": 3,
+    "image": "gloves_of_the_shadow_walker.png",
+    "lore": "Crafted by cultists, giving the wearer a touch of shadow power.",
+    "name": "Shadow Walker Gloves",
+    "price_gp": 260,
+    "rarity": "Rare (Dormant)"
+  },
+  {
+    "category": "Weapon",
+    "description": "A sleek, silver-black dagger with a strange weightlessness, absorbing nearby light.",
+    "effect": "+1 dagger. Deals +1d6 necrotic to creatures vulnerable to radiant or shadow-based damage. Once per short rest, can cast Shadow Blade for 30 seconds (Dormant).",
+    "id": 4,
+    "image": "shadowforged_dagger.jpeg",
+    "lore": "Forged from metals of the Silverhold Mine, imbued with the energy of the demon’s defeat.",
+    "name": "Shadowforged Dagger",
+    "price_gp": 210,
+    "rarity": "Uncommon"
+  },
+  {
+    "category": "Ring",
+    "description": "Stamped with the crest of Silverhold.",
+    "effect": "+1 AC while not using a shield.",
+    "id": 5,
+    "image": "silverhold_signet_ring.jpeg",
+    "lore": "n/a",
+    "name": "Silverhold Signet Ring",
+    "price_gp": 275,
+    "rarity": "Rare"
+  },
+  {
+    "category": "Ring",
+    "description": "A thin silver band inlaid with tiny crimson dragon scales.",
+    "effect": "Gain resistance to fire damage for 1 minute, once per long rest. Glows faintly when casting fire spells.",
+    "id": 6,
+    "image": "ring_of_ember_scales.png",
+    "lore": "n/a",
+    "name": "Ring of Ember Scales",
+    "price_gp": 200,
+    "rarity": "Uncommon"
+  },
+  {
+    "category": "Wondrous Item",
+    "description": "Twisted silver inlaid with moonstones, hums faintly under moonlight.",
+    "effect": "Once per long rest, regain one expended 1st-level spell slot.",
+    "id": 7,
+    "image": "moonstone_armband.png",
+    "lore": "n/a",
+    "name": "Moonstone Armband",
+    "price_gp": 250,
+    "rarity": "Uncommon"
+  },
+  {
+    "category": "Necklace",
+    "description": "Polished silver skull on a silver chain. Whispers faintly near corpses and grants insight into undead presences.",
+    "effect": "Once per long rest, when dealing Sneak Attack damage, add 1d6 necrotic damage. While wearing, the wearer can sense undead within 30 feet.",
+    "id": 8,
+    "image": "silverhold_skull_pendant.jpeg",
+    "lore": "n/a",
+    "name": "Silverhold Skull Pendant",
+    "price_gp": 220,
+    "rarity": "Uncommon"
+  },
+  {
+    "category": "Wondrous Item",
+    "description": "A fang from a great wolf, etched with runes. The wearer bonds with the spirit of the hunt.",
+    "effect": "Once per long rest, when hitting with a weapon attack, roll damage dice an additional time and add to total.",
+    "id": 9,
+    "image": "wolffang_necklace.jpeg",
+    "lore": "n/a",
+    "name": "Wolffang Necklace",
+    "price_gp": 230,
+    "rarity": "Uncommon"
+  },
+  {
+    "category": "Necklace",
+    "description": "A pendant with a small silver mirror, polished to a high sheen, with faint shadows moving inside.",
+    "effect": "Once per short rest, gain added blindsight for 5 minutes (Dormant). Shadowy visions may appear but are harmless.",
+    "id": 10,
+    "image": "the_silvered_mirror_pendant.png",
+    "lore": "Enchanted with residual energy from the Shadow Demon, hauntingly beautiful.",
+    "name": "The Silvered Mirror Pendant",
+    "price_gp": 245,
+    "rarity": "Rare (Dormant)"
+  }
 ]

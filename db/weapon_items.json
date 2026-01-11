@@ -10,7 +10,7 @@
         "price_gp": 900,
         "rarity": "Rare Magic Item"
     },
-     {
+    {
         "category": "Small Shield",
         "description": "A simple, sturdy round shield. Its wooden face is reinforced with an iron rim, showing minor dents and scratches from years of service. Though plain, it is reliable and easy to maneuver, perfect for foot soldiers, adventurers, or guards.",
         "effect": "+1 to AC when wielded",
@@ -20,5 +20,16 @@
         "name": "Hearthshield",
         "price_gp": 25,
         "rarity": "Common Item"
+    },
+    {
+        "category": "Long Bow",
+        "description": "A dark, ash-veined longbow etched with faint ember cracks. When its power is invoked, a brief flame runs along the arrow before fading.",
+        "effect": "Damage: 1d8 piercing - Range: 150/600 ft<br>Ember Spark (1/short rest): When you hit with this bow, you may deal +1d6 fire damage. You choose after the hit is confirmed.",
+        "id": 1,
+        "image": "emberstrike_bow.png",
+        "lore": "Forged in a volcanic crucible, Emberstrike once burned with living flame. Though its fire now slumbers, the bow still responds to those who prove their worth in battle.",
+        "name": "Emberstrike Bow",
+        "price_gp": 250,
+        "rarity": "Rare Magic Item"
     }
 ]
